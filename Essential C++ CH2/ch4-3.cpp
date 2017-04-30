@@ -65,6 +65,8 @@ bool UserProfile::operator!=(const UserProfile&t)const
 double UserProfile::correctRate()const
 {
 	double correctRate = (double)_rightNum / _guessNum;
+	UserProfile::test(1, 2);
+	
 	return correctRate;
 }
 ostream &operator<<(ostream&os, const UserProfile&t)

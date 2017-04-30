@@ -142,6 +142,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BinaryTree.cpp" />
     <ClCompile Include="ch4-3.cpp" />
     <ClCompile Include="ch2.cpp" />
     <ClCompile Include="ch3-2.cpp" />
@@ -151,6 +152,7 @@
     <ClCompile Include="stack.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BinaryTree.h" />
     <ClInclude Include="ch2.h" />
     <ClInclude Include="ch3.h" />
     <ClInclude Include="ch4-3.h" />

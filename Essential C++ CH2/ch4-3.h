@@ -51,6 +51,9 @@ public:
 	double correctRate()const;
 	friend ostream &operator<<(ostream&, const UserProfile&);
 	friend istream &operator >> (istream&, UserProfile&);
+	int test(int a, int b) const{ return a + b; }
+	int test(int a, int b) { return a + b; }
+
 private:
 
 	string _login;
@@ -60,5 +63,6 @@ private:
 	int _rightNum;
 	Rank _myrank;
 	static int guestFlag;
+	const int i = 1;
 };
 int UserProfile::guestFlag;
